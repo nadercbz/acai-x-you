@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Açaí x You Bestell Terminal</title>
+<!-- Açaí x You Self Order Terminal. Hochkant 1080 x 1920, Touch. Prototyp.
+     kiosk.html            Gast Terminal (Build it YOUR way: Größe, Sauce unten, Chia und Granola, Früchte, Crunches, Sauce oben, Drinks)
+     kiosk.html?view=kds   Küchenmonitor (Bowl Bau Schicht für Schicht, interne Portionsrichtlinie, Heute aus)
+     kiosk.html?view=ready Abholmonitor (Nummern fertig / in Arbeit)
+     Bestellungen laufen über localStorage und BroadcastChannel zwischen Tabs im selben Browser (Demo). Im Betrieb ersetzt eine API diesen Teil, siehe Bestelllogik.md. -->
+<link rel="icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Poppins:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="kiosk.css">
+</head>
+<body>
+<div id="stage"><div id="app"></div></div>
+<script src="menu.js"></script>
+<script>/* interne Portionsrichtlinie nur für den Küchenmonitor laden */
+if (new URLSearchParams(location.search).get("view") === "kds") document.write('<script src="intern.js"><\/script>');</script>
+<script src="kiosk.js"></script>
+</body>
+</html>
