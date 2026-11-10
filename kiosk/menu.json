@@ -1,0 +1,850 @@
+{
+ "version": "2026-10-13",
+ "brand": "Açaí x You",
+ "claim": "Build it YOUR way.",
+ "currency": "EUR",
+ "hours": "Mo bis Sa 10 bis 20 Uhr (Meeting 13.10.2026)",
+ "allergens": {
+  "1": "Glutenhaltiges Getreide",
+  "2": "Krebstiere",
+  "3": "Eier",
+  "4": "Fisch",
+  "5": "Erdnüsse",
+  "6": "Soja",
+  "7": "Milch (Laktose)",
+  "8": "Schalenfrüchte (Nüsse)",
+  "9": "Sellerie",
+  "10": "Senf",
+  "11": "Sesam",
+  "12": "Schwefeldioxid und Sulfite",
+  "13": "Lupinen",
+  "14": "Weichtiere"
+ },
+ "short": {
+  "1": "Gluten",
+  "2": "Krebstiere",
+  "3": "Eier",
+  "4": "Fisch",
+  "5": "Erdnüsse",
+  "6": "Soja",
+  "7": "Milch",
+  "8": "Nüsse",
+  "9": "Sellerie",
+  "10": "Senf",
+  "11": "Sesam",
+  "12": "Sulfite",
+  "13": "Lupinen",
+  "14": "Weichtiere"
+ },
+ "allergen_status": "Richtwert, mit Lieferanten Spezifikation prüfen",
+ "sizes": [
+  {
+   "id": "S",
+   "name": "Açaí Bowl S",
+   "price": 890,
+   "cup": "300 ml",
+   "layers": 1,
+   "popular": false,
+   "slug": "bowl-s",
+   "img": "assets/p/bowl-s_400.webp",
+   "img_big": "assets/p/bowl-s_800.webp",
+   "build": "Sauce(n), Açaí, Chia Pudding (optional), Granola und/oder Schoko Granola (optional), Açaí, Früchte und Toppings, Sauce(n) oben",
+   "chia_default": []
+  },
+  {
+   "id": "M",
+   "name": "Açaí Bowl M",
+   "price": 1090,
+   "cup": "400 ml",
+   "layers": 2,
+   "popular": true,
+   "slug": "bowl-m",
+   "img": "assets/p/bowl-m_400.webp",
+   "img_big": "assets/p/bowl-m_800.webp",
+   "build": "Sauce(n), Açaí, Chia Pudding und Granola, Früchte und Toppings, Açaí, Früchte und Toppings, Sauce(n) oben",
+   "chia_default": [
+    "chia-pudding",
+    "granola"
+   ]
+  },
+  {
+   "id": "L",
+   "name": "Açaí Bowl L",
+   "price": 1250,
+   "cup": "500 ml",
+   "layers": 2,
+   "popular": false,
+   "slug": "bowl-l",
+   "img": "assets/p/bowl-l_400.webp",
+   "img_big": "assets/p/bowl-l_800.webp",
+   "build": "wie M im 500 ml Becher",
+   "chia_default": [
+    "chia-pudding",
+    "granola"
+   ]
+  }
+ ],
+ "signatures": [
+  {
+   "id": "sig-bueno-crunch",
+   "name": "Bueno Crunch",
+   "slug": "sig-bueno-crunch",
+   "size": "M",
+   "img": "assets/p/sig-bueno-crunch_400.webp",
+   "img_big": "assets/p/sig-bueno-crunch_800.webp",
+   "foto": "KI Foto (Visualisierung, Referenz echtes Kundenfoto)",
+   "price": 1090,
+   "zutaten": "Erdbeere, Blaubeere, Mango, Biscoff-Crumbles, Oreo-Crumbles",
+   "bowl": {
+    "size": "M",
+    "sb": {
+     "bueno-style": "normal"
+    },
+    "chia": {
+     "chia-pudding": "normal",
+     "schoko-granola": "normal"
+    },
+    "fruit": {
+     "erdbeere": "normal",
+     "blaubeere": "normal",
+     "mango": "normal"
+    },
+    "crunch": {
+     "biscoff-crumbles": "normal",
+     "oreo-crumbles": "normal"
+    },
+    "st": {
+     "bueno-style": "normal"
+    }
+   }
+  },
+  {
+   "id": "sig-coconut-paradise",
+   "name": "Coconut Paradise",
+   "slug": "sig-coconut-paradise",
+   "size": "M",
+   "img": "assets/p/sig-coconut-paradise_400.webp",
+   "img_big": "assets/p/sig-coconut-paradise_800.webp",
+   "foto": "KI Foto (Visualisierung, Referenz echtes Kundenfoto)",
+   "price": 1090,
+   "zutaten": "Mango, Ananas, Banane, Kokosraspeln",
+   "bowl": {
+    "size": "M",
+    "sb": {
+     "raffaello-style": "normal"
+    },
+    "chia": {
+     "chia-pudding": "normal",
+     "granola": "normal"
+    },
+    "fruit": {
+     "mango": "normal",
+     "ananas": "normal",
+     "banane": "normal"
+    },
+    "crunch": {
+     "kokosraspeln": "normal"
+    },
+    "st": {
+     "raffaello-style": "normal"
+    }
+   }
+  },
+  {
+   "id": "sig-biscoff-bliss",
+   "name": "Biscoff Bliss",
+   "slug": "sig-biscoff-bliss",
+   "size": "M",
+   "img": "assets/p/sig-biscoff-bliss_400.webp",
+   "img_big": "assets/p/sig-biscoff-bliss_800.webp",
+   "foto": "KI Foto (Visualisierung, Referenz echtes Kundenfoto)",
+   "price": 1090,
+   "zutaten": "Erdbeere, Banane, Biscoff-Crumbles",
+   "bowl": {
+    "size": "M",
+    "sb": {
+     "biscoff": "normal"
+    },
+    "chia": {
+     "chia-pudding": "normal",
+     "granola": "normal"
+    },
+    "fruit": {
+     "erdbeere": "normal",
+     "banane": "normal"
+    },
+    "crunch": {
+     "biscoff-crumbles": "normal"
+    },
+    "st": {
+     "biscoff": "normal"
+    }
+   }
+  },
+  {
+   "id": "sig-berry-love",
+   "name": "Berry Love",
+   "slug": "sig-berry-love",
+   "size": "M",
+   "img": "assets/p/sig-berry-love_400.webp",
+   "img_big": "assets/p/sig-berry-love_800.webp",
+   "foto": "KI Foto (Visualisierung, Referenz echtes Kundenfoto)",
+   "price": 1090,
+   "zutaten": "Erdbeere, Himbeere, Blaubeere",
+   "bowl": {
+    "size": "M",
+    "sb": {
+     "himbeersosse": "normal"
+    },
+    "chia": {
+     "chia-pudding": "normal",
+     "granola": "normal"
+    },
+    "fruit": {
+     "erdbeere": "normal",
+     "himbeere": "normal",
+     "blaubeere": "normal"
+    },
+    "crunch": {},
+    "st": {
+     "himbeersosse": "normal"
+    }
+   }
+  }
+ ],
+ "groups": {
+  "sauce": [
+   {
+    "id": "bueno-style",
+    "name": "Bueno-Style",
+    "name_en": "Bueno-Style",
+    "contains": [
+     1,
+     6,
+     7,
+     8
+    ],
+    "may": [],
+    "color": "#C9A27A"
+   },
+   {
+    "id": "nutella-style",
+    "name": "Nutella-Style",
+    "name_en": "Nutella-Style",
+    "contains": [
+     6,
+     7,
+     8
+    ],
+    "may": [
+     1
+    ],
+    "color": "#5A3220"
+   },
+   {
+    "id": "raffaello-style",
+    "name": "Raffaello-Style",
+    "name_en": "Raffaello-Style",
+    "contains": [
+     7,
+     8
+    ],
+    "may": [
+     1,
+     6
+    ],
+    "color": "#F4EEE2"
+   },
+   {
+    "id": "vollmilchschokolade",
+    "name": "Vollmilchschokolade",
+    "name_en": "Milk chocolate",
+    "contains": [
+     6,
+     7
+    ],
+    "may": [
+     1,
+     8
+    ],
+    "color": "#7B4A2D"
+   },
+   {
+    "id": "pistazie",
+    "name": "Pistazie",
+    "name_en": "Pistachio",
+    "contains": [
+     8
+    ],
+    "may": [
+     6,
+     7
+    ],
+    "color": "#A9C46C"
+   },
+   {
+    "id": "cookies-and-cream",
+    "name": "Cookies and Cream",
+    "name_en": "Cookies and Cream",
+    "contains": [
+     1,
+     6,
+     7
+    ],
+    "may": [],
+    "color": "#E6E1DC"
+   },
+   {
+    "id": "biscoff",
+    "name": "Biscoff",
+    "name_en": "Biscoff",
+    "contains": [
+     1,
+     6
+    ],
+    "may": [
+     7
+    ],
+    "color": "#B9773A"
+   },
+   {
+    "id": "kondensmilch",
+    "name": "Kondensmilch",
+    "name_en": "Condensed milk",
+    "contains": [
+     7
+    ],
+    "may": [],
+    "color": "#F6EBD0"
+   },
+   {
+    "id": "erdnussmus",
+    "name": "Erdnussmus",
+    "name_en": "Peanut butter",
+    "contains": [
+     5
+    ],
+    "may": [
+     8
+    ],
+    "color": "#C89B5E"
+   },
+   {
+    "id": "erdbeersosse",
+    "name": "Erdbeersoße",
+    "name_en": "Strawberry sauce",
+    "contains": [],
+    "may": [],
+    "color": "#E0314B"
+   },
+   {
+    "id": "himbeersosse",
+    "name": "Himbeersoße",
+    "name_en": "Raspberry sauce",
+    "contains": [],
+    "may": [],
+    "color": "#C2185B"
+   },
+   {
+    "id": "blaubeersosse",
+    "name": "Blaubeersoße",
+    "name_en": "Blueberry sauce",
+    "contains": [],
+    "may": [],
+    "color": "#4B2C82"
+   },
+   {
+    "id": "mangososse",
+    "name": "Mangosoße",
+    "name_en": "Mango sauce",
+    "contains": [],
+    "may": [],
+    "color": "#FFB020"
+   },
+   {
+    "id": "maracujasosse-passionsfrucht",
+    "name": "Maracujasoße (Passionsfrucht)",
+    "name_en": "Passion fruit sauce",
+    "contains": [],
+    "may": [],
+    "color": "#F7C82B"
+   }
+  ],
+  "chia": [
+   {
+    "id": "chia-pudding",
+    "name": "Chia-Pudding",
+    "name_en": "Chia pudding",
+    "contains": [],
+    "may": [],
+    "color": "#EDE6DA"
+   },
+   {
+    "id": "granola",
+    "name": "Granola",
+    "name_en": "Granola",
+    "contains": [
+     1
+    ],
+    "may": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "color": "#C8964F"
+   },
+   {
+    "id": "schoko-granola",
+    "name": "Schoko-Granola",
+    "name_en": "Choco granola",
+    "contains": [
+     1,
+     7
+    ],
+    "may": [
+     5,
+     6,
+     8
+    ],
+    "color": "#6A4128"
+   }
+  ],
+  "fruit": [
+   {
+    "id": "banane",
+    "name": "Banane",
+    "name_en": "Banana",
+    "contains": [],
+    "may": [],
+    "color": "#F5E27A"
+   },
+   {
+    "id": "erdbeere",
+    "name": "Erdbeere",
+    "name_en": "Strawberry",
+    "contains": [],
+    "may": [],
+    "color": "#E8304A"
+   },
+   {
+    "id": "blaubeere",
+    "name": "Blaubeere",
+    "name_en": "Blueberry",
+    "contains": [],
+    "may": [],
+    "color": "#3B3F8F"
+   },
+   {
+    "id": "himbeere",
+    "name": "Himbeere",
+    "name_en": "Raspberry",
+    "contains": [],
+    "may": [],
+    "color": "#D6286B"
+   },
+   {
+    "id": "mango",
+    "name": "Mango",
+    "name_en": "Mango",
+    "contains": [],
+    "may": [],
+    "color": "#FFA41B"
+   },
+   {
+    "id": "weintrauben-hell",
+    "name": "Weintrauben hell",
+    "name_en": "White grapes",
+    "contains": [],
+    "may": [],
+    "color": "#B8D86B"
+   },
+   {
+    "id": "kiwi",
+    "name": "Kiwi",
+    "name_en": "Kiwi",
+    "contains": [],
+    "may": [],
+    "color": "#7DBE3B"
+   },
+   {
+    "id": "ananas",
+    "name": "Ananas",
+    "name_en": "Pineapple",
+    "contains": [],
+    "may": [],
+    "color": "#FFD23F"
+   }
+  ],
+  "crunch": [
+   {
+    "id": "biscoff-crumbles",
+    "name": "Biscoff-Crumbles",
+    "name_en": "Biscoff-Crumbles",
+    "contains": [
+     1,
+     6
+    ],
+    "may": [
+     7
+    ],
+    "color": "#B0702F"
+   },
+   {
+    "id": "oreo-crumbles",
+    "name": "Oreo-Crumbles",
+    "name_en": "Oreo-Crumbles",
+    "contains": [
+     1,
+     6,
+     7
+    ],
+    "may": [],
+    "color": "#2B2422"
+   },
+   {
+    "id": "krokant",
+    "name": "Krokant",
+    "name_en": "Brittle",
+    "contains": [
+     8
+    ],
+    "may": [
+     7
+    ],
+    "color": "#C98A3A"
+   },
+   {
+    "id": "kokosraspeln",
+    "name": "Kokosraspeln",
+    "name_en": "Desiccated coconut",
+    "contains": [],
+    "may": [
+     12
+    ],
+    "color": "#FFFFFF"
+   },
+   {
+    "id": "chiasamen",
+    "name": "Chiasamen",
+    "name_en": "Chia seeds",
+    "contains": [],
+    "may": [],
+    "color": "#2E2E2E"
+   },
+   {
+    "id": "mandeln-gehackt",
+    "name": "Mandeln gehackt",
+    "name_en": "Chopped almonds",
+    "contains": [
+     8
+    ],
+    "may": [],
+    "color": "#E2C49A"
+   },
+   {
+    "id": "haselnuesse",
+    "name": "Haselnüsse",
+    "name_en": "Hazelnuts",
+    "contains": [
+     8
+    ],
+    "may": [],
+    "color": "#A8703E"
+   },
+   {
+    "id": "erdnuesse-gehackt",
+    "name": "Erdnüsse gehackt",
+    "name_en": "Chopped peanuts",
+    "contains": [
+     5
+    ],
+    "may": [
+     8
+    ],
+    "color": "#D2A465"
+   },
+   {
+    "id": "lion-crumbles",
+    "name": "Lion-Crumbles",
+    "name_en": "Lion-Crumbles",
+    "contains": [
+     1,
+     6,
+     7
+    ],
+    "may": [
+     8
+    ],
+    "color": "#8A5A2B"
+   },
+   {
+    "id": "kitkat-crumbles",
+    "name": "KitKat-Crumbles",
+    "name_en": "KitKat-Crumbles",
+    "contains": [
+     1,
+     6,
+     7
+    ],
+    "may": [
+     8
+    ],
+    "color": "#9B5E34"
+   }
+  ]
+ },
+ "milks": [
+  {
+   "id": "kuhmilch",
+   "name": "Kuhmilch",
+   "name_en": "Cow's milk",
+   "contains": [
+    7
+   ],
+   "may": [],
+   "color": "#999"
+  },
+  {
+   "id": "hafermilch",
+   "name": "Hafermilch",
+   "name_en": "Oat milk",
+   "contains": [
+    1
+   ],
+   "may": [],
+   "color": "#999"
+  },
+  {
+   "id": "mandelmilch",
+   "name": "Mandelmilch",
+   "name_en": "Almond milk",
+   "contains": [
+    8
+   ],
+   "may": [],
+   "color": "#999"
+  },
+  {
+   "id": "kokosmilch",
+   "name": "Kokosmilch",
+   "name_en": "Coconut milk",
+   "contains": [],
+   "may": [],
+   "color": "#999"
+  }
+ ],
+ "drinks": {
+  "matcha": {
+   "name": "Matcha",
+   "img": "assets/p/matcha-classic-iced_400.webp",
+   "img_big": "assets/p/matcha-classic-iced_800.webp",
+   "classic": {
+    "M": 490,
+    "L": 590
+   },
+   "flavoured": {
+    "M": 550,
+    "L": 650
+   },
+   "flavors": [
+    {
+     "id": "flavor-blaubeere",
+     "name": "Blaubeere",
+     "name_en": "Blueberry",
+     "may": [
+      12
+     ],
+     "slug": "matcha-blaubeere",
+     "img": "assets/p/matcha-blaubeere_400.webp",
+     "img_big": "assets/p/matcha-blaubeere_800.webp"
+    },
+    {
+     "id": "flavor-passionsfrucht",
+     "name": "Passionsfrucht",
+     "name_en": "Passion fruit",
+     "may": [
+      12
+     ],
+     "slug": "matcha-passionsfrucht",
+     "img": "assets/p/matcha-passionsfrucht_400.webp",
+     "img_big": "assets/p/matcha-passionsfrucht_800.webp"
+    },
+    {
+     "id": "flavor-erdbeere",
+     "name": "Erdbeere",
+     "name_en": "Strawberry",
+     "may": [
+      12
+     ],
+     "slug": "matcha-erdbeere",
+     "img": "assets/p/matcha-erdbeere_400.webp",
+     "img_big": "assets/p/matcha-erdbeere_800.webp"
+    },
+    {
+     "id": "flavor-himbeere",
+     "name": "Himbeere",
+     "name_en": "Raspberry",
+     "may": [
+      12
+     ],
+     "slug": "matcha-himbeere",
+     "img": "assets/p/matcha-himbeere_400.webp",
+     "img_big": "assets/p/matcha-himbeere_800.webp"
+    },
+    {
+     "id": "flavor-mango",
+     "name": "Mango",
+     "name_en": "Mango",
+     "may": [
+      12
+     ],
+     "slug": "matcha-mango",
+     "img": "assets/p/matcha-mango_400.webp",
+     "img_big": "assets/p/matcha-mango_800.webp"
+    }
+   ],
+   "milk_default": "kuhmilch"
+  },
+  "limeade": {
+   "name": "Limeades",
+   "img": "assets/p/limeade-regular_400.webp",
+   "price": {
+    "M": 390,
+    "L": 490
+   },
+   "sorts": [
+    {
+     "id": "regular-limeade",
+     "name": "Regular Limeade",
+     "may": [
+      12
+     ],
+     "slug": "limeade-regular",
+     "img": "assets/p/limeade-regular_400.webp",
+     "img_big": "assets/p/limeade-regular_800.webp"
+    },
+    {
+     "id": "mango-lime-cooler",
+     "name": "Mango Lime Cooler",
+     "may": [
+      12
+     ],
+     "slug": "limeade-mango-lime-cooler",
+     "img": "assets/p/limeade-mango-lime-cooler_400.webp",
+     "img_big": "assets/p/limeade-mango-lime-cooler_800.webp"
+    },
+    {
+     "id": "passionfruit-limeade",
+     "name": "Passionfruit Limeade",
+     "may": [
+      12
+     ],
+     "slug": "limeade-passionfruit",
+     "img": "assets/p/limeade-passionfruit_400.webp",
+     "img_big": "assets/p/limeade-passionfruit_800.webp"
+    },
+    {
+     "id": "strawberry-limeade",
+     "name": "Strawberry Limeade",
+     "may": [
+      12
+     ],
+     "slug": "limeade-strawberry",
+     "img": "assets/p/limeade-strawberry_400.webp",
+     "img_big": "assets/p/limeade-strawberry_800.webp"
+    }
+   ]
+  },
+  "coffee": {
+   "name": "Kaffee",
+   "img": "assets/p/kaffee-cappuccino_400.webp",
+   "items": [
+    {
+     "id": "kaffee-espresso",
+     "slug": "kaffee-espresso",
+     "name": "Espresso",
+     "price": 220,
+     "img": "assets/p/kaffee-espresso_400.webp",
+     "img_big": "assets/p/kaffee-espresso_800.webp",
+     "milk": false
+    },
+    {
+     "id": "kaffee-double-espresso",
+     "slug": "kaffee-double-espresso",
+     "name": "Double Espresso",
+     "price": 290,
+     "img": "assets/p/kaffee-double-espresso_400.webp",
+     "img_big": "assets/p/kaffee-double-espresso_800.webp",
+     "milk": false
+    },
+    {
+     "id": "kaffee-americano",
+     "slug": "kaffee-americano",
+     "name": "Americano",
+     "price": 290,
+     "img": "assets/p/kaffee-americano_400.webp",
+     "img_big": "assets/p/kaffee-americano_800.webp",
+     "milk": false
+    },
+    {
+     "id": "kaffee-cafe-crema",
+     "slug": "kaffee-cafe-crema",
+     "name": "Café Crema",
+     "price": 290,
+     "img": "assets/p/kaffee-cafe-crema_400.webp",
+     "img_big": "assets/p/kaffee-cafe-crema_800.webp",
+     "milk": false
+    },
+    {
+     "id": "kaffee-cappuccino",
+     "slug": "kaffee-cappuccino",
+     "name": "Cappuccino",
+     "price": 350,
+     "img": "assets/p/kaffee-cappuccino_400.webp",
+     "img_big": "assets/p/kaffee-cappuccino_800.webp",
+     "milk": true
+    },
+    {
+     "id": "kaffee-latte-macchiato",
+     "slug": "kaffee-latte-macchiato",
+     "name": "Latte Macchiato",
+     "price": 390,
+     "img": "assets/p/kaffee-latte-macchiato_400.webp",
+     "img_big": "assets/p/kaffee-latte-macchiato_800.webp",
+     "milk": true
+    }
+   ]
+  },
+  "sizes": {
+   "M": "0,3 l",
+   "L": "0,4 l"
+  }
+ },
+ "rules": {
+  "toppings_included": true,
+  "suggest": {
+   "sauce_total": 3,
+   "fruit": 3,
+   "crunch": 4,
+   "_hinweis": "Auswahlgrenzen der Website (3 Saucen, 3 Früchte, 4 Crunches) nur als Tipp, keine Sperre. Meeting: Gast darf beliebig viel nehmen. Einheitliche Auswahlmatrix offen."
+  },
+  "amounts": [
+   "wenig",
+   "normal",
+   "viel"
+  ],
+  "vat": {
+   "bowl": 7,
+   "drink": 19,
+   "_hinweis": "Annahme To Go, mit Steuerberater prüfen"
+  },
+  "max_lines": 20,
+  "max_qty": 9,
+  "idle_seconds": 60,
+  "idle_warning_seconds": 15,
+  "done_reset_seconds": 20,
+  "order_prefix": "A",
+  "order_start": 101
+ }
+}

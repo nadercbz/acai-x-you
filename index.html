@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Açaí x You. Build it YOUR way.</title>
+<meta name="description" content="Açaí x You: Açaí Bowls Schicht für Schicht, Matcha, Limeades und Kaffee im Schloß-Straßen-Center Berlin Steglitz.">
+<meta property="og:title" content="Açaí x You. Build it YOUR way.">
+<meta property="og:description" content="Açaí Bowls Schicht für Schicht, ganz nach dir. Berlin Steglitz.">
+<meta property="og:image" content="assets/img/bowl_m.webp">
+<meta name="theme-color" content="#120018">
+<link rel="icon" href="assets/img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Pacifico&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Ladebildschirm: die Scroll Videos müssen komplett geladen sein, sonst ruckelt das Spulen -->
+<div id="loader" aria-live="polite">
+  <img src="assets/img/logo.webp" alt="Açaí x You" class="ld-logo">
+  <div class="ld-bar"><i></i></div>
+  <div class="ld-num"><span>0</span>%</div>
+</div>
+
+<header class="bar">
+  <a href="#laden" class="bar-a">Bestellen.</a>
+  <a href="#franchise" class="bar-b">Franchise.</a>
+  <a href="#top" class="bar-c" aria-label="Açaí x You Start"><img src="assets/img/logo.webp" alt="Açaí x You"></a>
+</header>
+
+<div id="smooth-wrapper">
+<div id="smooth-content">
+<main id="top">
+
+  <!-- 1 HERO: M Bowl dreht sich beim Scrollen -->
+  <section class="hero" id="hero">
+    <div class="hero-pin">
+      <video class="scrub" id="v-hero" muted playsinline preload="auto" poster="assets/img/poster_hero.webp" data-src="assets/video/hero"></video>
+      <div class="hero-claim">
+        <p class="kicker">Açaí Bowls · Matcha · Limeades · Berlin Steglitz</p>
+        <h1><span>Build</span> <span>it</span> <span class="your">YOUR</span> <span>way.</span></h1>
+      </div>
+      <div class="scroll-hint">Scroll <i></i></div>
+    </div>
+  </section>
+
+  <!-- 2 Statement, Wort für Wort -->
+  <section class="statement">
+    <p class="mono">01 · Die Idee</p>
+    <h2 class="big">100 % Açaí.<br><em>100 % You.</em></h2>
+    <p class="reveal">Kein Geschmack ist genau gleich. Warum sollten dann alle dieselbe Bowl bekommen? Bei Açaí x You baust du deine Bowl Schicht für Schicht: Sauce, Açaí, Chia Pudding, Granola, Früchte und Crunch. So steckt nicht nur oben etwas drauf. Jeder Löffel schmeckt nach deiner Kombination. Und die Toppings sind im Preis schon drin.</p>
+  </section>
+
+  <!-- 3 Laufschrift: alle Saucen, Früchte, Crunches -->
+  <section class="marquee" aria-label="Alle Zutaten">
+    <div class="mq mq-1"><span>BUENO-STYLE ✦ NUTELLA-STYLE ✦ RAFFAELLO-STYLE ✦ VOLLMILCHSCHOKOLADE ✦ PISTAZIE ✦ COOKIES AND CREAM ✦ BISCOFF-STYLE ✦ KONDENSMILCH ✦ ERDNUSSMUS ✦ ERDBEERE ✦ HIMBEERE ✦ BLAUBEERE ✦ MANGO ✦ MARACUJA✦</span></div>
+    <div class="mq mq-2"><span>BANANE ✦ ERDBEERE ✦ BLAUBEERE ✦ HIMBEERE ✦ MANGO ✦ ANANAS ✦ WEINTRAUBEN ✦ KIWI ✦ CHIA PUDDING ✦ GRANOLA ✦ SCHOKO GRANOLA ✦ BANANE ✦ ERDBEERE ✦ BLAUBEERE ✦</span></div>
+    <div class="mq mq-3"><span>BISCOFF-STYLE CRUMBLES ✦ OREO-STYLE CRUMBLES ✦ KROKANT ✦ KOKOSRASPELN ✦ CHIASAMEN ✦ MANDELN ✦ HASELNÜSSE ✦ ERDNÜSSE ✦ LION-STYLE CRUMBLES ✦ KITKAT-STYLE CRUMBLES ✦</span></div>
+  </section>
+
+  <!-- 4 HERZSTÜCK: Bowl setzt sich beim Scrollen Schicht für Schicht zusammen -->
+  <section class="build" id="bowl">
+    <div class="bd-pin">
+      <div class="bd-head">
+        <p class="mono">02 · Deine Bowl</p>
+        <h2>Build it <span class="your">YOUR</span> way.</h2>
+        <p class="bd-line">Schicht für Schicht.</p>
+        <p class="bd-sub">So baut sich deine M Bowl auf, von unten nach oben.</p>
+      </div>
+      <div class="bd-stage">
+        <video class="scrub" id="v-build" muted playsinline preload="auto" poster="assets/img/poster_build.webp" data-src="assets/video/build"></video>
+        <!-- Höhen gemessen am Standbild 0 % (Explosionsansicht), Nummern von unten -->
+        <ol class="labels">
+          <li style="--y:63%" class="l l2" data-out=".14"><i>1</i><span><b>Sauce deiner Wahl</b><small>ganz unten, aus 14 Saucen</small></span></li>
+          <li style="--y:54%" class="l r"  data-out=".26"><i>2</i><span><b>Açaí Basis</b><small>cremig, eiskalt</small></span></li>
+          <li style="--y:44%" class="l l2" data-out=".42"><i>3</i><span><b>Chia Pudding und Granola</b><small>Kokosmilch, Chiasamen, Crunch</small></span></li>
+          <li style="--y:33%" class="l r"  data-out=".57"><i>4</i><span><b>Früchte und Crunches</b><small>die erste Topping Schicht</small></span></li>
+          <li style="--y:23%" class="l l2" data-out=".72"><i>5</i><span><b>Açaí Basis</b><small>die zweite Açaí Schicht</small></span></li>
+          <li style="--y:10%" class="l r"  data-out=".93"><i>6</i><span><b>Früchte, Crunches, Sauce</b><small>on top, so viel du willst</small></span></li>
+        </ol>
+        <div class="bd-done"><span>Deine M Bowl</span><b>400 ml · 10,90 €</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 Größen, horizontal mit dem Scrollen -->
+  <section class="sizes" id="groessen">
+    <div class="sz-pin">
+      <div class="sz-head"><p class="mono">03 · Drei Größen</p><h2>Klein, beliebt, groß.</h2></div>
+      <div class="sz-track">
+        <article class="card"><div class="ph"><img src="assets/img/bowl_s.webp" alt="Açaí Bowl S"></div><h3>Bowl S <small>300 ml</small></h3><p>Sauce, Açaí, Chia Pudding und Granola nach Wunsch, Açaí, Früchte und Toppings, Sauce.</p><b>8,90 €</b></article>
+        <article class="card hot"><span class="pop">beliebt</span><div class="ph"><img src="assets/img/bowl_m.webp" alt="Açaí Bowl M"></div><h3>Bowl M <small>400 ml</small></h3><p>Zwei Açaí Schichten, Chia Pudding und Granola, zweimal Früchte und Crunches, Sauce oben.</p><b>10,90 €</b></article>
+        <article class="card"><div class="ph"><img src="assets/img/bowl_l.webp" alt="Açaí Bowl L"></div><h3>Bowl L <small>500 ml</small></h3><p>Gleicher Aufbau wie die M, nur im großen Becher. Für alle, die es ausgiebig lieben.</p><b>12,50 €</b></article>
+        <article class="card info"><div class="ph berries"><span>14</span><span>8</span><span>10</span></div><h3>Toppings inklusive</h3><p>14 Saucen, 8 Früchte, 10 Crunches, dazu Chia Pudding, Granola und Schoko Granola. Du entscheidest.</p><b>im Preis drin</b></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5b Signature Bowls (Wolt), Becher füllen sich Schicht für Schicht -->
+  <section class="sig" id="signatures">
+    <div class="sig-head"><p class="mono">04 · Signatures</p><h2>Keine Lust zu wählen?<br><em>Unsere Signatures.</em></h2></div>
+    <div class="sig-grid">
+      <article class="sig-card">
+        <div class="sig-ph"><img src="assets/img/sig-bueno-crunch.webp" alt="Signature Bowl Bueno Crunch" width="931" height="1400" decoding="async"></div>
+        <h3>Bueno Crunch</h3>
+        <p>Açaí, Chia Pudding, Schoko Granola, Bueno-Style Sauce, Erdbeere, Blaubeere, Mango, Biscoff-Style und Oreo-Style Crumbles.</p>
+      </article>
+      <article class="sig-card">
+        <div class="sig-ph"><img src="assets/img/sig-coconut-paradise.webp" alt="Signature Bowl Coconut Paradise" width="931" height="1400" decoding="async"></div>
+        <h3>Coconut Paradise</h3>
+        <p>Açaí, Chia Pudding, Granola, Mango, Ananas, Banane, Kokosraspeln, Kokossauce Raffaello-Style.</p>
+      </article>
+      <article class="sig-card">
+        <div class="sig-ph"><img src="assets/img/sig-biscoff-bliss.webp" alt="Signature Bowl Biscoff Bliss" width="931" height="1400" decoding="async"></div>
+        <h3>Biscoff Bliss</h3>
+        <p>Açaí, Chia Pudding, Granola, Biscoff-Style Sauce und Crumbles, Erdbeere, Banane.</p>
+      </article>
+      <article class="sig-card">
+        <div class="sig-ph"><img src="assets/img/sig-berry-love.webp" alt="Signature Bowl Berry Love" width="931" height="1400" decoding="async"></div>
+        <h3>Berry Love</h3>
+        <p>Açaí, Chia Pudding, Granola, Erdbeere, Himbeere, Blaubeere, Himbeersauce.</p>
+      </article>
+    </div>
+    <p class="small sig-note">Alle vier Signatures gibt es auch auf Wolt. Oder du baust dir deine eigene.</p>
+  </section>
+
+  <!-- 6 Drinks: Zutaten fliegen beim Scrollen hoch -->
+  <section class="drinks" id="drinks">
+    <div class="dr-pin">
+      <video class="scrub" id="v-drinks" muted playsinline preload="auto" poster="assets/img/poster_drinks.webp" data-src="assets/video/drinks"></video>
+      <div class="dr-text">
+        <p class="mono">05 · Drinks</p>
+        <h2>Dein Drink.<br>Deine Wahl.</h2>
+        <p>Limeade, Iced Matcha oder Kaffee. Kalt, fruchtig, wach.</p>
+        <div class="tag"><span>Iced Matcha</span><b>ab 4,90 €</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 Drink Karte: drei Reihen, jede läuft horizontal mit dem Scrollen -->
+  <section class="dk dk-lim" id="limeades">
+    <div class="dk-pin">
+      <div class="dk-head"><p class="mono">06 · Limeades</p><h2>Fruchtig. Eiskalt.</h2><p class="dk-sub">Limeade auf Limettenbasis · M 0,3 l · L 0,4 l</p></div>
+      <div class="dk-track">
+        <article class="dcard "><div class="dph"><img src="assets/img/limeade-regular.webp" alt="Regular Limeade" width="700" height="1100" decoding="async"></div><h4>Regular Limeade</h4><b>3,90 € / 4,90 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/limeade-mango-lime-cooler.webp" alt="Mango Lime Cooler" width="700" height="1100" decoding="async"></div><h4>Mango Lime Cooler</h4><b>3,90 € / 4,90 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/limeade-passionfruit.webp" alt="Passionfruit Limeade" width="700" height="1100" decoding="async"></div><h4>Passionfruit Limeade</h4><b>3,90 € / 4,90 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/limeade-strawberry.webp" alt="Strawberry Limeade" width="700" height="1100" decoding="async"></div><h4>Strawberry Limeade</h4><b>3,90 € / 4,90 €</b></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="dk dk-mat" id="matcha">
+    <div class="dk-pin">
+      <div class="dk-head"><p class="mono">07 · Matcha</p><h2>Matcha, 5 Flavors.</h2><p class="dk-sub">Flavoured M 5,50 € / L 6,50 € · Classic Iced M 4,90 € / L 5,90 € · Milch: Kuhmilch, Hafermilch, Mandelmilch, Kokosmilch</p></div>
+      <div class="dk-track">
+        <article class="dcard "><div class="dph"><img src="assets/img/matcha-classic.webp" alt="Matcha Classic Iced" width="700" height="1100" decoding="async"></div><h4>Matcha Classic Iced</h4><b>4,90 € / 5,90 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/matcha-blaubeere.webp" alt="Matcha Blaubeere" width="700" height="1100" decoding="async"></div><h4>Matcha Blaubeere</h4><b>5,50 € / 6,50 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/matcha-passionsfrucht.webp" alt="Matcha Passionsfrucht" width="700" height="1100" decoding="async"></div><h4>Matcha Passionsfrucht</h4><b>5,50 € / 6,50 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/matcha-erdbeere.webp" alt="Matcha Erdbeere" width="700" height="1100" decoding="async"></div><h4>Matcha Erdbeere</h4><b>5,50 € / 6,50 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/matcha-himbeere.webp" alt="Matcha Himbeere" width="700" height="1100" decoding="async"></div><h4>Matcha Himbeere</h4><b>5,50 € / 6,50 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/matcha-mango.webp" alt="Matcha Mango" width="700" height="1100" decoding="async"></div><h4>Matcha Mango</h4><b>5,50 € / 6,50 €</b></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="dk dk-kaf" id="kaffee">
+    <div class="dk-pin">
+      <div class="dk-head"><p class="mono">08 · Kaffee</p><h2>Von Espresso bis Latte.</h2><p class="dk-sub">Heiß oder auf Eis, deine Wahl · Milchwahl bei Cappuccino und Latte Macchiato</p></div>
+      <div class="dk-track">
+        <article class="dcard "><div class="dph"><img src="assets/img/kaffee-latte-macchiato.webp" alt="Latte Macchiato" width="700" height="1100" decoding="async"></div><h4>Latte Macchiato</h4><b>3,90 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/kaffee-cappuccino.webp" alt="Cappuccino" width="700" height="1100" decoding="async"></div><h4>Cappuccino</h4><b>3,50 €</b></article>
+        <article class="dcard "><div class="dph"><img src="assets/img/kaffee-americano.webp" alt="Americano" width="700" height="1100" decoding="async"></div><h4>Americano</h4><b>2,90 €</b></article>
+        <div class="dk-small">
+          <article class="dcard mini"><div class="dph"><img src="assets/img/kaffee-cafe-crema.webp" alt="Café Crema" width="700" height="620" decoding="async"></div><h4>Café Crema</h4><b>2,90 €</b></article>
+          <article class="dcard mini"><div class="dph"><img src="assets/img/kaffee-espresso.webp" alt="Espresso" width="700" height="620" decoding="async"></div><h4>Espresso</h4><b>2,20 €</b></article>
+          <article class="dcard mini"><div class="dph"><img src="assets/img/kaffee-double-espresso.webp" alt="Double Espresso" width="700" height="620" decoding="async"></div><h4>Double Espresso</h4><b>2,90 €</b></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 Laden, Parallax -->
+  <section class="store" id="laden">
+    <div class="sto-head">
+      <p class="mono">09 · Der Store</p>
+      <h2>Kompakter Store.<br>Grenzenlose Auswahl.</h2>
+      <div class="sto-info">
+        <p><b>Schloß-Straßen-Center Berlin</b><br>Walther-Schreiber-Platz 1, 12161 Berlin<br>Untergeschoss, neben den dm Kassen</p>
+        <p><b>Mo bis Sa 10 bis 20 Uhr</b><br>Sonntag geschlossen</p>
+        <a class="btn" href="https://wolt.com/de/deu/berlin/restaurant/acai-x-you" target="_blank" rel="noopener">Jetzt auf Wolt bestellen</a>
+      </div>
+    </div>
+    <div class="sto-grid">
+      <figure class="sto-a"><div class="pimg"><img src="assets/img/laden_front.webp" alt="Açaí x You Theke im Schloß-Straßen-Center" loading="lazy"></div><figcaption>Die Theke im Center</figcaption></figure>
+      <figure class="sto-b"><div class="pimg"><img src="assets/img/laden_saladette.webp" alt="Saladette mit Toppings" loading="lazy"></div><figcaption>Toppings, frisch vorbereitet</figcaption></figure>
+      <figure class="sto-c"><div class="pimg"><img src="assets/img/laden_links.webp" alt="Store Seite links" loading="lazy"></div><figcaption>Build it YOUR way an der Wand</figcaption></figure>
+      <figure class="sto-d"><div class="pimg"><img src="assets/img/laden_rechts.webp" alt="Store Seite rechts" loading="lazy"></div><figcaption>From the Amazon straight to your spoon</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- 9 Große Laufschrift -->
+  <section class="marquee m2" aria-hidden="true">
+    <div class="mq mq-4"><span>BUILD IT YOUR WAY ✦ AÇAÍ IS ALL ABOUT YOU ✦ BUILD IT YOUR WAY ✦ AÇAÍ IS ALL ABOUT YOU ✦</span></div>
+  </section>
+
+  <!-- 10 Franchise -->
+  <section class="franchise" id="franchise">
+    <div class="fr-img par" data-speed="0.9"><img src="assets/img/bowl_l.webp" alt="Açaí Bowl L" loading="lazy"></div>
+    <div class="fr-text">
+      <p class="mono">10 · Franchise</p>
+      <h2>Bring Açaí x You in deine Stadt.</h2>
+      <p class="fr-where">Franchise Partner für Städte außerhalb Berlins. In Berlin eröffnet Açaí x You seine Stores selbst.</p>
+      <p class="reveal">Dein eigener Store. Unsere Marke. Ein gemeinsames System. Wir suchen keine reinen Kapitalgeber, sondern Partnerinnen und Partner, die ihren Standort selbst aufbauen und mit Herz führen.</p>
+    </div>
+    <div class="fr-cols">
+      <div>
+        <h3>Was du bekommst</h3>
+        <ul class="fr-list">
+          <li>Marke Açaí x You, Store und Designkonzept</li>
+          <li>Rezepte, Abläufe und Produktstandards</li>
+          <li>Freigegebene Lieferanten und Kalkulationen</li>
+          <li>Hilfe bei der Standortbewertung</li>
+          <li>Schulung für dich und dein Startteam</li>
+          <li>Checklisten für Eröffnung und Alltag</li>
+          <li>Marketingvorlagen und Social Media Support</li>
+          <li>Begleitung bei der Eröffnung</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Was du mitbringst</h3>
+        <ul class="fr-list">
+          <li>Unternehmerisches Denken und Verantwortung</li>
+          <li>Freude an Gastro und direktem Kundenkontakt</li>
+          <li>Lust, ein Team zu führen oder es zu lernen</li>
+          <li>Zeit, deinen Standort aktiv zu führen</li>
+          <li>Eigenkapital und eine gesicherte Finanzierung</li>
+        </ul>
+        <div class="fr-box">
+          <b>Eckdaten auf Anfrage.</b>
+          <p>Investition und Gebühren klären wir persönlich und standortbezogen.</p>
+          <a class="btn" href="mailto:info@acaixyou.de?subject=Franchise-Anfrage">Franchise Anfrage senden</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 Schluss -->
+  <section class="end" id="bestellen">
+    <img src="assets/img/logo.webp" alt="Açaí x You" class="end-logo">
+    <h2>Build it <span class="your">YOUR</span> way.</h2>
+    <p>Im Schloß-Straßen-Center Berlin Steglitz oder per Wolt.</p>
+    <div class="end-btns">
+      <a class="btn" href="https://wolt.com/de/deu/berlin/restaurant/acai-x-you" target="_blank" rel="noopener">Auf Wolt bestellen</a>
+      <a class="btn ghost" href="https://www.instagram.com/acaixyou/" target="_blank" rel="noopener">Instagram</a>
+      <a class="btn ghost" href="https://www.tiktok.com/@acaixyou" target="_blank" rel="noopener">TikTok</a>
+    </div>
+    <div class="end-row">
+      <img src="assets/img/bowl_s.webp" alt="Bowl S" loading="lazy">
+      <img src="assets/img/bowl_m.webp" alt="Bowl M" loading="lazy">
+      <img src="assets/img/bowl_l.webp" alt="Bowl L" loading="lazy">
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div>
+      <p><b>Açaí x You</b> · Schloß-Straßen-Center Berlin · <a href="mailto:info@acaixyou.de">info@acaixyou.de</a></p>
+      <p>Instagram <a href="https://www.instagram.com/acaixyou/" target="_blank" rel="noopener">@acaixyou</a> · TikTok <a href="https://www.tiktok.com/@acaixyou" target="_blank" rel="noopener">@acaixyou</a></p>
+    </div>
+    <p class="note">Konzept Website von <a href="https://nadercbz.github.io/social-bites/" target="_blank" rel="noopener">Social Bites</a>, Berlin. Visualisierung, die Scroll Videos sind KI generiert. Offizielle Seite: <a href="https://acaixyou.de" target="_blank" rel="noopener">acaixyou.de</a></p>
+  </footer>
+
+</main>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
